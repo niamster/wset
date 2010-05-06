@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=wset
+Comment=Configure Desktop backgtound
+Exec=/usr/bin/wset-gtk
+Icon=applications-other
+Terminal=false
+Type=Application
+Categories=Settings;
