@@ -15,7 +15,7 @@ xroot = Extension('xroot',
                   )
 
 setup(name = 'xroot',
-      version = '0.0.1',
+      version = '0.0.1.1',
       description = 'wset is a tool which allows you to compose wallpapers for X',
       author = 'Ni@m',
       author_email = 'niam[dot]niam[at]gmail[dot]com',

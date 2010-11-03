@@ -1,7 +1,7 @@
 # Contributor: Ni@m <niam[dot]niam[at]gmail[dot]com>
 
 pkgname=wset
-pkgver=0.0.1
+pkgver=0.0.1.1
 pkgrel=1
 pkgdesc="wset is a tool which allows you to compose wallpapers for X"
 url="http://github.com/niamster/wset"
