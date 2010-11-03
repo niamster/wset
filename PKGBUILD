@@ -10,7 +10,7 @@ depends=('imlib2' 'xorg-server' 'pygtk')
 arch=('i686' 'x86_64')
 source=(http://github.com/niamster/wset/tarball/master/$pkgname-$pkgver.tar.gz)
 noextract=($pkgname-$pkgver.tar.gz)
-md5sums=('91b488ab517f89b7b052ea22b9cc5ee4')
+md5sums=('48f0c31e9f5dfab482f7a8f946eed0b8')
 
 build() {
   mkdir $startdir/src/$pkgname-$pkgver
