@@ -232,13 +232,18 @@ static PyMethodDef xroot_methods[] = {
     {NULL, NULL, 0, NULL}        /* Sentinel */
 };
 
+static struct PyModuleDef xroot_module = {
+	PyModuleDef_HEAD_INIT,
+	"xroot",   /* name of module */
+	NULL, /* module documentation, may be NULL */
+	-1,       /* size of per-interpreter state of the module,
+				or -1 if the module keeps state in global variables. */
+	
+	xroot_methods
+};
 
 PyMODINIT_FUNC
-initxroot(void)
+PyInit_xroot(void)
 {
-    PyObject *m;
-
-    m = Py_InitModule("xroot", xroot_methods);
-    if (m == NULL)
-        return;
+    return PyModule_Create(&xroot_module);
 }
